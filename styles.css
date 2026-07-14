@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+.navbar {
+
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+
+.banner-section{
+    
+    width: 100%;
+    height: 201px;
+    margin-right: 10px;
+}
+
+.category-section{
+    
+    width: 100%;
+    height: 150px;
+}
+
+.arrival-section{
+    width: 100%;
+    height: 550px;
+    border: 1px solid black;
+}
+
+.discount-section{
+    width: 100%;
+    height: 150px;
+}
+.category-section ul {
+    padding: 0;
+    margin: 0;
+}
+ .category-section ul li{
+    list-style: none;
+    display: inline-block;
+    width: 180px;
+margin: 20px 10px;
+border: 2px double black;
+text-align: center;
+vertical-align: top;
+ }
+ .category-section,
+ .arrival-section {
+    margin-bottom: 40px;
+    font-weight: bold;
+ }
+ .category-section ul li img {
+    width: 100%;
+ }
+figure {
+    
+    margin: 0;
+    padding: 0;
+ }
+ figcaption {
+    font-size: 14px;
+    color: #333;
+    margin-top: 5px;
+ }
+
+ .arrival-section li {
+    display: inline-flex;
+    width: 260px;
+    height: 200px;
+    margin: 20px;
+    margin-left: 30px;
+
+ }
+ .category-section li:hover {
+    transform: scale(1.2);
+ }
+ .sub-section ul li:hover {
+    transform: scale(1.2);
+ }
+ .sub-section ul li img {
+    width: 100%;;
+    margin-left: 10px;
+ }
+ .sub-section {
+    border: 1px solid black;
+ }
+
+ .discount-section {
+    position: relative;
+    top:5px;
+    padding-left: 20px ;
+ }
+  .discount-section img {
+    width: 300px;
+    height: 250px;
+    margin: 10px;
+
+  }
+
+  .footer {
+    width: 100%;
+    min-width: 100vw;
+    position: relative;
+    top: 400px;
+    padding-right: 5px;
+  }
+
+  .category-section ul li {
+    flex-direction: column;
+  }
+
+ .navbar {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   color: white;
+ }
+
+ .company h2 {
+   margin-left: 20px;
+ }
+
+ .products ul li {
+   display: inline-flex;
+   list-style: none;
+   margin-right: 20px;
+ }
